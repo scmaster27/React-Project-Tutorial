@@ -74,12 +74,12 @@ class App extends Component {
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
-              <TableCell>번호</TableCell>
-              <TableCell>이미지</TableCell>
-              <TableCell>이름</TableCell>
-              <TableCell>생년월일</TableCell>
-              <TableCell>성별</TableCell>
-              <TableCell>직업</TableCell>
+              <TableCell>No</TableCell>
+              <TableCell>プロフィル写真</TableCell>
+              <TableCell>名前</TableCell>
+              <TableCell>生年月日</TableCell>
+              <TableCell>性別</TableCell>
+              <TableCell>職業</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
