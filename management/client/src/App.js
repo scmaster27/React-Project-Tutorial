@@ -95,12 +95,14 @@ class App extends Component {
                 <TableCell>生年月日</TableCell>
                 <TableCell>性別</TableCell>
                 <TableCell>職業</TableCell>
+                <TableCell>設定</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               {this.state.customers ? this.state.customers.map(c => {
                   return (
-                    <Customer 
+                    <Customer
+                      stateRefresh={this.stateRefresh}
                       id={c.id}
                       image={c.image}
                       name={c.name}
